@@ -60,7 +60,7 @@ export const EditClientModal: FC<EditClientModalProps> = ({
       {isLoading && <StyledSpin size="large" spinning={isLoading} />}
       {!isLoading && (
         <Form form={form} initialValues={client}>
-          <h1>Edit New Client</h1>
+          <h1>Edit Client</h1>
           <Form.Item
             name="firstName"
             rules={[

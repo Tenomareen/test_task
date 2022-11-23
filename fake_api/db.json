@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "firstName": "Vadim",
+      "secondName": "Strilchuk",
+      "email": "asfasf@asfsaf.sfsaf",
+      "password": "sfasfsaf",
+      "linkedin": "https://www.linkedin.com/in/vadim-strilciuc-00b815214/"
+    },
+    {
+      "firstName": "sfasfas",
+      "secondName": "fasfasf",
+      "email": "safasf@fsaf.asfasf",
+      "password": "asfasf",
+      "linkedin": "https://www.linkedin.com/in/vadim-strilciuc-00b815214/",
+      "id": 2
+    },
+    {
+      "firstName": "fasfas",
+      "secondName": "asfasf",
+      "email": "asfasf@sfasf.asfas",
+      "password": "asfaf",
+      "linkedin": "https://www.linkedin.com/in/vadim-strilciuc-00b815214/",
+      "id": 3
+    }
+  ]
+}

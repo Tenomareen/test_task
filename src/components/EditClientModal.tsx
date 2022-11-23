@@ -1,6 +1,8 @@
-import { Form, Input, Modal } from "antd";
 import React, { FC, useEffect, useState } from "react";
+import { Form, Input, Modal } from "antd";
+
 import { getClientById, updateClientById } from "../services/ClientsService";
+
 import { StyledSpin } from "./styled";
 
 interface EditClientModalProps {

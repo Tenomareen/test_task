@@ -1,6 +1,8 @@
-import { Form, Input, Modal } from "antd";
 import React, { FC, useState } from "react";
+import { Form, Input } from "antd";
+
 import { postNewClient } from "../services/ClientsService";
+
 import { StyledModal } from "./styled";
 
 interface AddNewClientProps {

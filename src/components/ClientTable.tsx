@@ -1,10 +1,13 @@
-import React, { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { Button, Table } from "antd";
+
 import { deleteClient, getAllClients } from "../services/ClientsService";
+
 import { ColumnsType } from "antd/lib/table";
-import { StyledBody, StyledButton } from "./styled";
+
 import AddNewClient from "./AddNewClient";
 import { EditClientModal } from "./EditClientModal";
+import { StyledBody, StyledButton } from "./styled";
 
 interface ClientTableProps {}
 
